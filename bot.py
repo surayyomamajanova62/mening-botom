@@ -9,7 +9,7 @@ from telegram.ext import (Application, CommandHandler, CallbackQueryHandler,
 TOKEN = os.environ["BOT_TOKEN"]
 PROVIDER_TOKEN = os.environ["PROVIDER_TOKEN"]
 CHANNEL_ID = int(os.environ["CHANNEL_ID"])
-PRICE_SOM = 100000  # narxni o'zgartiring
+PRICE_SOM = 49000  # narxni o'zgartiring
 
 web = Flask(__name__)
 
